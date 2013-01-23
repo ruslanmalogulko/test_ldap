@@ -1,8 +1,8 @@
 import ldap
 
 server = 'ldap://172.22.64.41:389'
-username = r'nc.local\rmalogulko'
-password= 'lp5023PL1'
+username = r'' #dc.dc\name
+password= ''
 base_dn='ou=Technical,dc=nc,dc=local'
 
 l = ldap.initialize(server)
